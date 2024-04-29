@@ -10,7 +10,7 @@ app.use(express.json());
 app.use(cors());
 
 // MongoDB Connection
-mongoose.connect("mongodb+srv://khaizark26:Khaizar-2610@cluster0.l9wjyfm.mongodb.net/kmit_mern", { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect("MongoDB Link", { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => console.log('MongoDB Connected'))
   .catch((err) => console.log(err));
 
